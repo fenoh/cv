@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Ma page web</title>
+	<style type="text/css">
+		body{
+			background-color: #caf0f8;
+			margin: 0px;
+			font-family: sans-serif;
+			/*overflow: hidden;*/
+		}
+
+		.cv {
+			width: 600px;
+			height: 400px;
+			margin: 0 auto;
+		}
+
+		#left-rect {
+			position: absolute;
+			left: -80px;
+			top: -40px;
+			background-color: #48cae4;
+			height: 360px;
+			width: 360px;
+			transform: rotate(-16deg);
+			z-index: -1;
+		}
+
+		#bottom-rect {
+			position: absolute;
+			bottom: -500px;
+			left: 120px;
+			background-color: #90e0ef;
+			height: 800px;
+			width: 800px;
+			transform: rotate(60deg);
+			z-index: -1;
+		}
+
+		#right-rect {
+			position: absolute;
+			background-color: #00b4d8;
+			width: 260px;
+			height: 260px;
+			transform: rotate(60deg);
+			right: -180px;
+			top: 100px;
+			z-index: -1;
+		}
+
+		#img {
+			width:20px;
+			height: 20px;
+			float: left;
+		}
+		header img{
+			margin-right: 0px;
+			margin-left: 400px;
+			padding:10px;
+		}
+		.header{
+		}
+		header p{
+			font-style: bold;
+			font-family: Arial;
+			font-size: 20px;
+			margin-left: 400px;
+			margin-top:24px;
+			padding:10px;
+			color: #03045e;
+		}
+
+
+		nav	{
+			margin-top: 16px; 
+			text-align: center;
+			position: absolute;
+			right: 300px;
+			top: 20px;
+			width: 400px;
+			margin-left: 0px;
+		}
+		#href {
+
+			text-decoration: none;
+			color: #0077b6;
+			font-family: sans-serif;
+			padding-right: 20px;
+		}
+		#name { 
+			color: black;
+			font-family: sans-serif;
+			text-decoration: none;
+		}
+		#link{
+			float: right;
+			width: 20px;
+			height: 20px;
+			margin-left: 5px;
+
+		}
+		#addr{ 
+			margin-left: 10px;
+			font-family: Constantia;
+		}
+
+		#git{
+			float: right;
+			width: 20px;
+			height: 20px;
+			margin-left: 5px;
+
+		}
+		.corps{
+			text-align: center;
+		}
+		#feno-andrianaly{
+			font-size: 48px;
+			font-weight: 600;
+			color: #03045e;
+			line-height: 0
+		}
+		#profile-title{
+			font-size: italic;
+			color: #0096c7;
+			line-height: 0;
+		}
+		#text{
+			font-size: bold-italic;
+			color: #03045e;
+			font-family: Baskerville Old Face;
+
+		}
+		#zesta {
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<img src="feno.png" id="img">	
+		<p>Fenoh</p>
+		<nav>
+			<a href="#cv" id="href">CV</a>
+			<a href="#contact" id="href"> Contact</a>
+
+			<img src="github-mark.png" id="git">
+			<img src="linkedin.jpg" id="link">
+
+		</nav>
+	</header>
+	<article class="corps">
+		<div id="feno-andrianaly">
+			<p>Feno Andrianaly</p>
+		</div>
+		<div id="profile-title">
+			<p>Etudiante en Télécommunication</p>
+		</div>
+	</article>
+	<div class="cv">
+		<a name="cv" id="name">
+			<h4>Curriculum Vitae</h4>
+		</a>
+		<p id="text">Principales Compétences Techniques</p>
+		<ul type="disc">
+			<li>Conception, Développement d’Application (Android, Java, C)</li>
+			<li>Développement Web Frontend(HTML, CSS, JavaScript)</li>
+			<li>Connaissance DevOps (Docker Swarm, Architecture en micro-services et conteneurisation)</li>
+			<li>Connaissance théorique sur les réseaux informatiques</li>
+			<li>Bureautique : Microsoft Word, MS Excel, MS PowerPoint</li>
+			<li>Notion sur les antennes et fibres optiques</li>
+		</ul>
+		<p id="text">Expériences Professionnelles</p>
+		Ingenosya
+		<p>Développeur Android: Novembre 2019 - Juin 2020</p>
+		<ul type="circle">Développeur Android dans divers projets</ul>
+		<p id="text">Formations et Diplômes</p>
+		<ul type="disc">
+			<li>
+				Ecole Supérieure Polytechnique d’Antananarivo (ESPA)<br/>
+				Licence professionnelle en Télécommunications, Parcours Système de Traitement d’Information
+			</li>
+			<li>
+				Lycée Moderne Ampefiloha (LMA)<br/>
+				Bac scientifique , série C, obtenu en 2016.
+			</li>
+		</ul>
+		<p id="text">Aptitudes linguistiques</p>
+		<ul type="disc">
+			<li>Français: Écrit: Très bien, Parlé: Très bien</li>
+			<li>Anglais: Écrit: Très bien, Parlé: assez bien</li>
+		</ul>
+		<p id="text">Qualités</p>
+		<ul type="disc">
+			<li>Passionné</li>
+			<li>Rigoureux</li>
+			<li>Autonome</li>
+		</ul>
+		<p id="text">Loisirs</p>
+		<ul type="disc">
+			<li>Lecture</li>
+			<li>Musique</li>
+			<li>Basket-ball</li>
+			<li>Chanter</li>
+		</ul>
+		<footer>
+			<a name="contact" id="name">
+				<h4>Contact</h4>
+			</a>
+			<p id="addr">
+				<ul type="sqare">
+				<li>Lot III P 29 Marohoho Ankaditoho</li>
+				<li>feno.andrianaly@gmail.com</li>
+				<li>+261 34 12 777 </li>
+				</ul>
+			</p>
+		</footer>
+
+	</div>
+	<div id="zesta">
+		<div id="left-rect"></div>
+		<div id="bottom-rect"></div>
+		<div id="right-rect"></div>
+	</div>
+
+</body>
+</html>
